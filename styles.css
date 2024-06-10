@@ -1,0 +1,248 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height:100vh;
+    width: 100%;
+    background-image: url('html-css-collage-concept-with-person_23-2150062008.png');
+    background-size:cover ;
+    background-position: center;
+}
+
+nav{
+    display:flex;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-top: -60px;
+    
+}
+
+nav ul{
+    display:flex;
+    float:right;
+}
+
+nav ul li{
+    padding:10px 20px;
+    list-style-type: none;
+}
+.name{
+  color:white;
+  font-size: 40px;  
+  padding-left:10px;
+  padding-top: 20px;
+}
+span{
+    color:rgb(245, 0, 139)
+}
+
+nav ul li a{
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    color: red;
+    transition: 1s;
+}
+
+nav button{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin:5px;   
+}
+
+.content{
+    padding-top: 180px;
+    padding-left: 300px;
+    color:white;
+    height: 100vh;
+    width: 100%;
+}
+
+.nam{
+    color:white;
+    font-size: 60px;  
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color:rgb(0, 249, 220);
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+h4{
+    color: rgb(0, 249, 220);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.subscribe{
+    padding-top: 20px;
+}
+
+.subscribe form input:first-child{
+
+    display: inline-block;
+    width: 25%;
+    padding: 17px 120px 17px 14px;
+    border:3px solid red;
+    border-radius:40px;
+    cursor: pointer;
+
+}
+
+.subscribe form input:last-child{
+    display:inline-block;   
+    border:none;
+    background-color: red;
+    color: white;
+    position: relative;
+    border-radius: 70px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    right: 115px;
+    bottom:0px;
+    box-shadow: 0px 0px 20px black;
+    cursor: pointer;
+}
+
+.about_me{
+    width: 100%;
+    padding:50px 0px;
+    background-color: black;
+}
+
+.about_me h3{
+    color:rgb(245, 0, 139);
+    font-size: x-large;
+    text-decoration:wavy;  
+    
+}
+
+.about_me img{
+    height: 520px;
+    width: auto;
+    margin-left: 300px;
+    border: 6px solid rgb(245, 0, 139);
+    border-radius: 100px;
+
+}
+
+
+.about_content{
+    color: white;
+    width:40%;
+    padding-left: 200px;
+    
+}
+
+.about_content p{
+    padding-top: 20px;
+}
+.main{
+    display:flex;
+}
+
+
+.techskill{
+    background-color: black;
+    padding-top: 50px;
+    
+}
+
+
+.skills-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+   
+}
+
+.techskill h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: rgb(245, 0, 139);
+}
+
+.skills-column {
+    width: 45%;
+}
+
+.skill {
+    margin-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.skill p {
+    margin: 0;
+    font-size: 1.2em;
+    color:white;
+    font-weight: bold;
+}
+
+.progress {
+    background-color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background: rgb(255, 90, 184);
+    height: 30px;
+    border-radius: 20px;
+    line-height: 30px;
+    color: rgb(3, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.html {
+    width: 85%;
+}
+
+.css {
+    width: 70%;
+}
+
+.java {
+    width: 75%;
+}
+
+.javascript {
+    width: 40%;
+}
+
+.sql {
+    width: 80%;
+}
+
+.git {
+    width: 75%;
+}
