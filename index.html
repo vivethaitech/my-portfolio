@@ -1,76 +1,79 @@
-<html>
-    <head>
-        <title>vivetha Portfolio</title>
-        <link rel ="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <section class="hero" id="Home">
-            <nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivetha Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero" id="Home">
+        <nav>
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#about_">About me</a></li>
-                <li><a href="#skill_">skills</a></li>
-                <li><a href="#projec_">project</a></li>
-                <li><a href="#">Contact us</a></li>
-                
+                <li><a href="#skill_">Skills</a></li>
+                <li><a href="#projec_">Projects</a></li>
+                <li><a href="#contact">Contact us</a></li>
             </ul>
-            </nav>
-            <section class="sep">
-            <div class="content">
-                <h3>Hello My name is</h3>
+        </nav>
+        <section class="content">
+            <div class="photo-container">
+                <img src="WhatsApp Image 2024-06-06 at 9.09.11 PM.jpeg" alt="Vivetha Baskaran">
+            </div>
+            <div class="text-content">
                 <h1 class="nam">Vivetha <span>Baskaran</span></h1>
-                <h4>I'm a Full Stack Developer.</h4>
+                <h4>Passionate Full Stack Developer.</h4>
                 <p>Vivetha, a B.Tech. IT graduate with BPO experience, recently pivoted towards becoming a proficient full stack developer. Eager to leverage acquired knowledge and hands-on practice to excel in a dynamic career transition.</p>
-                </div>
-                <div>
-                <img src="WhatsApp Image 2024-06-06 at 9.09.11 PM.jpeg">
-                </div>
-            </section>
+            </div>
         </section>
-        <section class="about_me" id="about_">
+    </section>
+        <section class="about_me" id="about_" class="fade-in">
             <h3><center>About Me</center></h3>
                 <div class="about_content">
                     
                     <p>My name is Vivetha, and I graduated with a B.Tech in Information Technology in 2019. After completing my degree, I initially prepared for government exams. However, due to some financial issues in my family, I started working in the BPO field.
 
-                       <br><br> During my time in the BPO sector, I realized my passion for returning to my core field. I took the initiative to practice front-end development, learning HTML, CSS, and JavaScript. Additionally, I joined a comprehensive Java course to deepen my knowledge. Now, I have a  grip on Java, and I also have knowledge of SQL.
-                        
+                        During my time in the BPO sector, I realized my passion for returning to my core field. I took the initiative to practice front-end development, learning HTML, CSS, and JavaScript. Additionally, I joined a comprehensive Java course to deepen my knowledge. Now, I have a  grip on Java, and I also have knowledge of SQL.
+                        <br><br>During my Java course, I had the opportunity to work as an intern for an organization where they assigned a task of recreating an institute website by collaborating with team members.Then I had a chance to edit and style one real estate website and an interior design website. After that, I work for Android app API testing in Postman using the crud operation. By using the response from Postman Api, I developed a Java bean for an Android application. In my internship, I had a chance to learn real-time work and got a chance to collaborate with task members. I used the version control system github to maintain my frontend mini projects and maintain Java codes. But in my internship, I learned to use a version control system to clone, pull, and push code in one organization repository. I am also practicing and solving programming questions in CodeChef, where I solved up to 140 questions.
+
                       <br><br> Apart from my technical skills, Iam also a strong communicator and team player. During my college years, I was actively involved in the Fine Arts Club, where I had the chance to develop my leadership and collaborative abilities. At my previous company, I also had the opportunity to work as a temporary team leader, further honing my leadership skills.
                         
-                       <br><br> In my free time, I enjoy singing, listening to music and audio stories, which helps me unwind and stay creative.</p>
+                       In my free time, I enjoy singing, listening to music and audio stories, which helps me unwind and stay creative.</p>
                        
-                </div>  
+                </div>  <br><br>
+                <h3 class="intern"><center>Internship experience</center></h3>
                 <table>
                     <tr>
-                      <th>Education</th>
-                      <th>Institution</th>
-                      <th>percentage</th>
-                      <th>Year</th>
+                      <th>Internship</th>
+                      <th>Roles and Responsibility</th>
                     </tr>
                     <tr>
-                      <td>B.Tech(Information Technology)</td>
-                      <td>Jeppiaar Maamallan Engineering College</td>
-                      <td>67%</td>
-                      <td>2019</td>
+                      <td>WEB DEVELOPMENT</td>
+                      <td>Contributed to the development of the website.Worked on
+                        designing and developing the course page using HTML and CSS.</td>
                     </tr>
                     <tr>
-                      <td>HSC</td>
-                      <td>Vivekananda Matriculation Higher Secondary School</td>
-                      <td>85.5%</td>
-                      <td>2015</td>
+                      <td>WEB DESIGN</td>
+                      <td>Designed and styled the real-estate website. Collaborated with
+                        team members using the version control system (GitHub).</td>
                     </tr>
                     <tr>
-                        <td>10th Grade</td>
-                        <td>Vivekananda Matriculation Higher Secondary School</td>
-                        <td>93.8%</td>
-                        <td>2013</td>
+                        <td>API TESTING</td>
+                        <td>Performed API testing using the Postman tool, focusing on CRUD
+                            operations.</td>
+                      </tr>
+                      <tr>
+                        <td>JAVA DEVELOPMENT</td>
+                        <td>Developed and implemented Java Beans for data management in
+                            an Android Studio project.</td>
                       </tr>
                   </table> 
-                </div> 
+                </div> <br><br><br><br>
         </section>
         
        <!--Skills section started-->
-       <section class="techskill" id="skill_">
+       <section class="techskill" id="skill_" class="fade-in">
         <h1>My <span>Technical</span> Skills</h1><br><br>
         <div class="skills-container">
            
@@ -84,13 +87,13 @@
                 <div class="skill">
                     <p>CSS</p>
                     <div class="progress">
-                        <div class="progress-bar css">70%</div>
+                        <div class="progress-bar css">75%</div>
                     </div>
                 </div>
                 <div class="skill">
                     <p>Java</p>
                     <div class="progress">
-                        <div class="progress-bar java">75%</div>
+                        <div class="progress-bar java">85%</div>
                     </div>
                 </div>
             </div>
@@ -98,7 +101,7 @@
                 <div class="skill">
                     <p>Javascript</p>
                     <div class="progress">
-                        <div class="progress-bar javascript">40%</div>
+                        <div class="progress-bar javascript">75%</div>
                     </div>
                 </div>
                 <div class="skill">
@@ -110,22 +113,57 @@
                 <div class="skill">
                     <p>Git</p>
                     <div class="progress">
-                        <div class="progress-bar git">75%</div>
+                        <div class="progress-bar git">80%</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br><br>
     </section>
         <!--Project Started-->
-        <section class="project" id="projec_">
+        <section class="project" id="projec_" class="fade-in">
             <h1>My Projects</h1>
-         <div class="project_title">
-            <h2>Quiz Web App</h2>
-            <p>Created a quiz application using HTML, CSS, and JavaScript. Provides feedback on incorrect answers and includes a 'Play Again' option for correcting mistakes, enhancing learning experience.</p>
             <div class="project_title">
-            <h2>Tic Tac Toe</h2>
-            <p>paragraph</p>
-         </div>
+                <h2>Quiz Web App</h2>
+                <p>Created a quiz application using HTML, CSS, and JavaScript. Provides feedback on incorrect answers and includes a 'Play Again' option for correcting mistakes, enhancing learning experience.</p>
+            </div>
+            <div class="project_title">
+                <h2>Tic Tac Toe</h2>
+                <p>Created a Tic Tac Toe game using HTML, CSS, and JavaScript with a simple interface for two players.</p>
+            </div>
+            <div class="project_title">
+                <h2>Credit Card Validator</h2>
+                <p>Developed a credit card validator using the Luhn algorithm in HTML, CSS, and JavaScript to validate credit card numbers.</p>
+            </div>
+            <div class="project_title">
+                <h2>NEET Marks Validator</h2>
+                <p>Built a NEET marks calculator using HTML, CSS, and JavaScript to calculate and validate exam marks.</p>
+            </div>
+            <div class="project_title">
+                <h2>EB Calculator</h2>
+                <p>Created an EB calculator based on Tamil Nadu EB board readings using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project_title">
+                <h2>BMI Calculator</h2>
+                <p>Developed a BMI calculator using HTML, CSS, and JavaScript to compute body mass index.</p>
+            </div>
+            <div class="project_title">
+                <h2>Digital Clock</h2>
+                <p>Created a digital clock using HTML, CSS, and JavaScript that displays the current time.</p>
+            </div>
+            <div class="project_title">
+                <h2>Stop Watch</h2>
+                <p>Built a stop watch using HTML, CSS, and JavaScript with start, stop, and reset functionalities.</p><br><br>
+            </div>
         </section>
+        <!--contact page-->
+        <section class="contact" id="contact" class="fade-in">
+            <h1>Contact Me</h1>
+            <ul>
+                <li><a href="https://github.com/vivethaitech" target="_blank">GitHub</a></li>
+                <li><a href="mailto:vivethaitech@gmail.com">Gmail</a></li>
+                <li><a href="https://www.linkedin.com/in/vivetha-baskaran-abb97b152/" target="_blank">LinkedIn</a></li>
+                <li><a href="tel:+919597028795">WhatsApp</a></li>
+            </ul>
+        </section>        
     </body>
 </html>
